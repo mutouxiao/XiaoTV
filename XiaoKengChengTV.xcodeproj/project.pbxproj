@@ -13,6 +13,8 @@
 		2C365C751D13C0E000526D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C365C731D13C0E000526D39 /* Main.storyboard */; };
 		2C365C771D13C0E000526D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C365C761D13C0E000526D39 /* Assets.xcassets */; };
 		2C365C7A1D13C0E000526D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C365C781D13C0E000526D39 /* LaunchScreen.storyboard */; };
+		2C365C871D13C98E00526D39 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C365C851D13C98E00526D39 /* FirstViewController.m */; };
+		2C365C881D13C98E00526D39 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C365C861D13C98E00526D39 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		2C365C761D13C0E000526D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C365C791D13C0E000526D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C365C7B1D13C0E000526D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C365C841D13C98E00526D39 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2C365C851D13C98E00526D39 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2C365C861D13C98E00526D39 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 			children = (
 				2C365C6D1D13C0E000526D39 /* AppDelegate.h */,
 				2C365C6E1D13C0E000526D39 /* AppDelegate.m */,
+				2C365C841D13C98E00526D39 /* FirstViewController.h */,
+				2C365C851D13C98E00526D39 /* FirstViewController.m */,
+				2C365C861D13C98E00526D39 /* FirstViewController.xib */,
 				2C365C701D13C0E000526D39 /* ViewController.h */,
 				2C365C711D13C0E000526D39 /* ViewController.m */,
 				2C365C731D13C0E000526D39 /* Main.storyboard */,
@@ -139,6 +147,7 @@
 				2C365C7A1D13C0E000526D39 /* LaunchScreen.storyboard in Resources */,
 				2C365C771D13C0E000526D39 /* Assets.xcassets in Resources */,
 				2C365C751D13C0E000526D39 /* Main.storyboard in Resources */,
+				2C365C881D13C98E00526D39 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 				2C365C721D13C0E000526D39 /* ViewController.m in Sources */,
 				2C365C6F1D13C0E000526D39 /* AppDelegate.m in Sources */,
 				2C365C6C1D13C0E000526D39 /* main.m in Sources */,
+				2C365C871D13C98E00526D39 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +314,7 @@
 				2C365C801D13C0E000526D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
