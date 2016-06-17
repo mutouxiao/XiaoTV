@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    FirstViewController *firstVC = [[FirstViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:firstVC];
-    self.window.rootViewController = nav;
+//    FirstViewController *firstVC = [[FirstViewController alloc] init];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:firstVC];
+//    self.window.rootViewController = nav;
     
     return YES;
 }

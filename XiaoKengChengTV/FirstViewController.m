@@ -7,6 +7,8 @@
 //
 
 #import "FirstViewController.h"
+#import "Masonry.h"
+
 
 @interface FirstViewController ()
 
@@ -17,6 +19,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    UIView *view = [UIView new];
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.height.equalTo(@100);
+        make.top.left.equalTo(@0);
+        
+        NSLog(@"view:%@",NSStringFromCGRect(view.frame));
+    }];
+    
+    UIView *view1 = [UIView new];
+    view1.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:view1];
+    [view1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.top.height.equalTo(view);
+        make.left.equalTo(view.mas_right).offset(100);
+        
+        NSLog(@"view1:%@",NSStringFromCGRect(view1.frame));
+    }];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
