@@ -31,7 +31,7 @@
     }];
     
     UIView *view1 = [UIView new];
-    view1.backgroundColor = [UIColor yellowColor];
+    view1.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:view1];
     [view1 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.width.top.height.equalTo(view);
